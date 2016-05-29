@@ -1,4 +1,4 @@
-import "angular2-materialize";
+// import "angular2-materialize";
 /*
  * Providers provided by Angular
  */

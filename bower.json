@@ -1,0 +1,8 @@
+{
+  "name": "materialize-angular2",
+  "version": "1.0.0",
+  "dependencies": {
+    "materialize": "~0.97.6",
+    "prism": "~1.5.0"
+  } 
+}

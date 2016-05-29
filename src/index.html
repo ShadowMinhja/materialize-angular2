@@ -2,15 +2,16 @@
 <html lang="">
 <head>
 
-  <title><%= webpackConfig.metadata.title %></title>
+  <title>Materialize-NG2</title>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="<%= webpackConfig.metadata.title %>">
+  <meta name="description" content="Materialize is a modern responsive CSS framework based on Material Design by Google. ">
 
+  <!-- Favicons-->
   <!-- use http://www.favicon-generator.org/ to replace files in public/icon-->
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icon/apple-icon-57x57.png">
+  <!--<link rel="apple-touch-icon" sizes="57x57" href="/assets/icon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/assets/icon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/assets/icon/apple-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="76x76" href="/assets/icon/apple-icon-76x76.png">
@@ -22,13 +23,22 @@
   <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icon/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/assets/icon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png">
-  <link rel="manifest" href="/assets/manifest.json">
-  <meta name="msapplication-TileColor" content="#00bcd4">
-  <meta name="msapplication-TileImage" content="/assets/icon/ms-icon-144x144.png">
-  <meta name="theme-color" content="#00bcd4">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png">-->
+  <link rel="apple-touch-icon-precomposed" href="src/images/favicon/apple-touch-icon-152x152.png">
+  <link rel="icon" href="src/images/favicon/favicon-32x32.png" sizes="32x32">
+  <!--<link rel="manifest" href="/assets/manifest.json">-->
+  <!--<meta name="msapplication-TileColor" content="#00bcd4">
+  <meta name="msapplication-TileImage" content="/assets/icon/ms-icon-144x144.png">-->
+  <!--<meta name="theme-color" content="#00bcd4">-->
   <!-- end favicon -->
-
+  <!--  Android 5 Chrome Color-->
+  <meta name="theme-color" content="#EE6E73">
+  <!-- CSS-->
+  <!--Import materialize.css-->
+  <link href="bower_components/materialize/extras/noUiSlider/nouislider.css" rel="stylesheet">
+  <link href="assets/css/prism.css" rel="stylesheet">
+  <link href="assets/css/ghpages-materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- base url -->
@@ -44,7 +54,7 @@
   </app>
 
   <!-- Google Analytics: change UA-71073175-1 to be your site's ID -->
-  <script>
+  <!--<script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -52,14 +62,22 @@
 
     ga('create', 'UA-71073175-1', 'auto');
     ga('send', 'pageview');
-  </script>
+  </script>-->
 
   <% if (webpackConfig.metadata.ENV === 'development') { %>
   <!-- Webpack Dev Server reload -->
   <script src="/webpack-dev-server.js"></script>
   <% } %>
-  
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+  
+  <!--<script src="polyfills.bundle.js"></script>-->
+  <!--<script src="vendor.bundle.js"></script>-->
+  <!--<script src="main.bundle.js"></script>-->
+  
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/materialize/js/jquery.timeago.min.js"></script>
+  <script type="text/javascript" src="bower_components/materialize/dist/js/materialize.js"></script>
+  <!--<script type="text/javascript" src="bower_components/materialize/bin/materialize.js"></script>-->
+  
 </body>
 </html>

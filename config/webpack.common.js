@@ -77,9 +77,9 @@ module.exports = {
 
     alias: {
       materializecss: 'materialize-css/dist/css/materialize.css',
-      materialize: 'materialize-css/dist/js/materialize.js',
+      // materialize: 'materialize-css/dist/js/materialize.js',
       'angular2/core': helpers.root('node_modules/@angular/core/index.js'),
-      'angular2/testing': helpers.root('node_modules/@angular/core/testing.js'),
+      // 'angular2/testing': helpers.root('node_modules/@angular/core/testing.js'),
       '@angular/testing': helpers.root('node_modules/@angular/core/testing.js'),
       'angular2/platform/browser': helpers.root('node_modules/@angular/platform-browser/index.js'),
       'angular2/testing': helpers.root('node_modules/@angular/testing/index.js'),
@@ -123,7 +123,7 @@ module.exports = {
         exclude: [
           // these packages have problems with their sourcemaps
           helpers.root('node_modules/rxjs'),
-          helpers.root('node_modules/@angular2-material'),
+          // helpers.root('node_modules/@angular2-material'),
           helpers.root('node_modules/@angular'),
         ]
       }
