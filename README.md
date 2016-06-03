@@ -1,8 +1,7 @@
 # Materialize Angular2
 
 
-> A port of Materialize to [Angular 2](https://angular.io) 
- [Material](https://github.com/angular/material2)
+> A port of Materialize to [Angular 2](https://angular.io)  
 
 > Uses [Angular2-WebPack-Starter] as a base project (https://github.com/InfomediaLtd/angular2-webpack-starter)
 
@@ -15,7 +14,6 @@ This repo serves as an Angular 2 starter for anyone looking to use Materialize w
 * Best practices in file and application organization for Angular 2.
 * Ready to go build system using Webpack for working with TypeScript.
 * Complete implementation of Materialize controls working with TypeScript.
-* Material Design with [angular/material2](https://github.com/angular/material2)
 
 ### Quick start
 **Make sure you have Node version >= 4.0 and NPM >= 3**
@@ -39,8 +37,6 @@ bower install
 npm start
 
 ___
-
-<br><br>
 
 > Hope you enjoy!
 - ShadowMinhja
