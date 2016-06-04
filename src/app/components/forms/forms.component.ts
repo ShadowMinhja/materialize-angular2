@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { UtilsComponent } from 'app/shared/utils.component';
+import { UtilsComponent } from '../../shared/utils.component';
 
 declare var noUiSlider:any;
 declare var wNumb:any;

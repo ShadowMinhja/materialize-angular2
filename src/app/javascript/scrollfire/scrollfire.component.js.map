@@ -1,1 +1,1 @@
-{"version":3,"file":"scrollfire.component.js","sourceRoot":"","sources":["scrollfire.component.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;YAKA;gBAAA;gBACA,CAAC;gBAJD;oBAAC,gBAAS,CAAC;wBACP,WAAW,EAAE,gEAAgE;qBAChF,CAAC;;uCAAA;gBAEF,0BAAC;YAAD,CAAC,AADD,IACC;YADD,qDACC,CAAA"}
+{"version":3,"file":"scrollfire.component.js","sourceRoot":"","sources":["scrollfire.component.ts"],"names":[],"mappings":";AAAA,qBAA0B,eAAe,CAAC,CAAA;AAK1C;IAAA;IACA,CAAC;IAJD;QAAC,gBAAS,CAAC;YACP,WAAW,EAAE,qDAAqD;SACrE,CAAC;;2BAAA;IAEF,0BAAC;AAAD,CAAC,AADD,IACC;AADY,2BAAmB,sBAC/B,CAAA"}
